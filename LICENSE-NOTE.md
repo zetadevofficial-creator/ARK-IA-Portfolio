@@ -1,5 +1,5 @@
-# Nota sobre derechos de uso
+# Derechos de uso
 
-Este repositorio de presentación no concede una licencia para reutilizar el código de ARK IA. El pequeño ejemplo seleccionado se muestra como evidencia técnica del proyecto; los demás derechos quedan reservados a Zeta-Dev, salvo autorización escrita o una licencia publicada expresamente.
+© 2026 Zeta-Dev. Todos los derechos reservados.
 
-Antes de publicar, el propietario puede elegir una licencia distinta o retirar esta nota. No incluyas aquí dependencias de terceros que no puedan redistribuirse.
+Este repositorio es una presentación técnica de ARK IA y no concede permiso para reutilizar la aplicación, sus servicios ni sus materiales. El ejemplo de Flutter se publica únicamente como muestra limitada del trabajo de interfaz. Para solicitar permiso de uso, contacta con Zeta-Dev.
