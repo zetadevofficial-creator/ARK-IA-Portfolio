@@ -1,0 +1,19 @@
+name: Validate portfolio
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out portfolio
+        uses: actions/checkout@v6
+      - name: Check site links and assets
+        run: python3 tests/validate_site.py

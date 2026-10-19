@@ -1,0 +1,22 @@
+# Local secrets and machine configuration
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.pem
+*.p12
+*.key
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+
+# Generated artifacts and private backups
+build/
+outputs/
+backups/
+codex-backup-*/
+.firebase/
+.dart_tool/
+.idea/
+__pycache__/

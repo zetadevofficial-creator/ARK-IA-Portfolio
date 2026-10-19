@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#10100e">
+    <meta name="description" content="ARK IA: ein Flutter-Projekt für Android und Windows. KI, Sprache, persönliche Organisation und lokale Bildschirmübersetzung auf Android.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="ARK IA — Flutter-Projekt von Zeta-Dev">
+    <meta property="og:description" content="Ein persönlicher Arbeitsbereich für KI, Sprache, Notizen und Bildschirmübersetzung.">
+    <meta property="og:image" content="assets/ark-ia-demo.gif">
+    <title>ARK IA — Flutter-Projekt von Zeta-Dev</title>
+    <link rel="icon" href="assets/ark_logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body data-title-de="ARK IA — Flutter-Projekt von Zeta-Dev" data-title-en="ARK IA — Flutter project by Zeta-Dev" data-title-es="ARK IA — Proyecto Flutter de Zeta-Dev" data-description-de="ARK IA: ein Flutter-Projekt für Android und Windows. KI, Sprache, persönliche Organisation und lokale Bildschirmübersetzung auf Android." data-description-en="ARK IA: a Flutter project for Android and Windows, bringing together AI, voice, personal organization, and on-device screen translation for Android." data-description-es="ARK IA: un proyecto Flutter para Android y Windows. IA, voz, organización personal y traducción de pantalla local en Android.">
+    <a class="skip-link" href="#main" data-de="Zum Inhalt springen" data-en="Skip to content" data-es="Saltar al contenido">Zum Inhalt springen</a>
+
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="ARK IA — Start" data-aria-de="ARK IA — Start" data-aria-en="ARK IA — Home" data-aria-es="ARK IA — Inicio">
+        <img src="assets/ark_logo.png" alt="" width="42" height="42">
+        <span><strong>ARK IA</strong><small>ZETA-DEV · GUATEMALA</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Hauptnavigation" data-aria-de="Hauptnavigation" data-aria-en="Main navigation" data-aria-es="Navegación principal">
+        <a href="#projekt" data-de="Projekt" data-en="Project" data-es="Proyecto">Projekt</a>
+        <a href="#technik" data-de="Technik" data-en="Technology" data-es="Tecnología">Technik</a>
+        <a href="#fallstudie" data-de="Fallstudie" data-en="Case study" data-es="Caso técnico">Fallstudie</a>
+      </nav>
+      <div class="nav-actions">
+        <label class="visually-hidden" for="site-language">Sprache / Language / Idioma</label>
+        <select class="language-switch" id="site-language" aria-label="Sprache / Language / Idioma">
+          <option value="de" selected>Deutsch</option>
+          <option value="en">English</option>
+          <option value="es">Español</option>
+        </select>
+        <a class="button button-small button-gold" href="https://ark-ia.web.app/#descargas" target="_blank" rel="noreferrer">
+          <span data-de="App ansehen" data-en="View the app" data-es="Ver la app">App ansehen</span><span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section-shell" id="top">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow"><span class="eyebrow-line"></span><span data-de="EIN PERSÖNLICHES SOFTWAREPROJEKT" data-en="AN INDEPENDENT SOFTWARE PROJECT" data-es="UN PROYECTO PERSONAL DE SOFTWARE">EIN PERSÖNLICHES SOFTWAREPROJEKT</span></p>
+          <h1 class="hero-title" data-de="<span class='title-line'>Ideen sammeln.</span><span class='title-line'><em>Klar weiterdenken.</em></span>" data-en="&lt;span class=&#x27;title-line&#x27;&gt;Collect ideas.&lt;/span&gt;&lt;span class=&#x27;title-line&#x27;&gt;&lt;em&gt;Think them through.&lt;/em&gt;&lt;/span&gt;" data-es="<span class='title-line'>Reúne tus ideas.</span><span class='title-line'><em>Sigue pensando.</em></span>"><span class="title-line">Ideen sammeln.</span><span class="title-line"><em>Klar weiterdenken.</em></span></h1>
+          <p class="hero-lede" data-de="ARK IA verbindet KI-Unterhaltungen mit Sprache, persönlicher Organisation und einer lokal arbeitenden Bildschirmübersetzung für Android." data-en="ARK IA brings AI conversations together with voice, personal organization, and on-device screen translation for Android." data-es="ARK IA reúne conversaciones con IA, voz, organización personal y traducción de pantalla local para Android.">ARK IA verbindet KI-Unterhaltungen mit Sprache, persönlicher Organisation und einer lokal arbeitenden Bildschirmübersetzung für Android.</p>
+          <div class="hero-actions">
+            <a class="button button-gold" href="https://ark-ia.web.app/#descargas" target="_blank" rel="noreferrer"><span data-de="Produktseite öffnen" data-en="Open product page" data-es="Abrir página del producto">Produktseite öffnen</span><span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="#projekt"><span data-de="Projekt entdecken" data-en="Explore the project" data-es="Conocer el proyecto">Projekt entdecken</span><span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-meta">
+            <span class="live-dot"></span><span data-de="Flutter · Android · Windows" data-en="Flutter · Android · Windows" data-es="Flutter · Android · Windows">Flutter · Android · Windows</span>
+            <span class="meta-divider"></span><span>v1.0.0 · Build 29</span>
+          </div>
+        </div>
+        <div class="hero-visual" data-reveal style="--delay: 140ms">
+          <div class="visual-glow"></div>
+          <div class="visual-frame">
+            <div class="frame-bar"><span></span><span></span><span></span><small>ARK IA <i>·</i> <span data-de="Arbeitsbereich" data-en="Workspace" data-es="Espacio de trabajo">Arbeitsbereich</span></small></div>
+            <img src="assets/ark-ia-demo.gif" alt="Animierter Einblick in die ARK IA Desktop- und Mobiloberfläche" data-alt-de="Animierter Einblick in die ARK IA Desktop- und Mobiloberfläche" data-alt-en="Animated preview of ARK IA on desktop and mobile" data-alt-es="Vista animada de ARK IA en escritorio y móvil" fetchpriority="high">
+          </div>
+          <div class="floating-note"><span class="note-icon">✦</span><span><b data-de="Ein Projekt, viele Werkzeuge" data-en="One app, many tools" data-es="Un proyecto, varias herramientas">Ein Projekt, viele Werkzeuge</b><small data-de="Mit Fokus auf Alltag und Zugänglichkeit" data-en="Designed for everyday use and accessibility" data-es="Diseñado para el uso cotidiano">Mit Fokus auf Alltag und Zugänglichkeit</small></span></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        </div>
+        <a class="scroll-cue" href="#projekt" aria-label="Weiter nach unten" data-aria-de="Weiter nach unten" data-aria-en="Scroll to explore" data-aria-es="Desplazarse para explorar"><span></span><small data-de="WEITER ENTDECKEN" data-en="EXPLORE BELOW" data-es="SEGUIR EXPLORANDO">WEITER ENTDECKEN</small></a>
+      </section>
+
+      <section class="proof-strip" aria-label="Projektüberblick" data-aria-de="Projektüberblick" data-aria-en="Project overview" data-aria-es="Resumen del proyecto">
+        <div><strong>01</strong><span data-de="Flutter-App" data-en="Flutter app" data-es="App Flutter">Flutter-App</span></div>
+        <div><strong>02</strong><span data-de="Zwei Plattformen" data-en="Two platforms" data-es="Dos plataformas">Zwei Plattformen</span></div>
+        <div><strong>03</strong><span data-de="Lokale Übersetzung" data-en="On-device translation" data-es="Traducción local">Lokale Übersetzung</span></div>
+        <div><strong>04</strong><span data-de="Eigenständig entwickelt" data-en="Independently developed" data-es="Desarrollo independiente">Eigenständig entwickelt</span></div>
+      </section>
+
+      <section class="section section-shell" id="projekt">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow"><span class="eyebrow-line"></span><span data-de="DAS PROJEKT" data-en="THE PROJECT" data-es="EL PROYECTO">DAS PROJEKT</span></p>
+          <h2 data-de="Mehr als ein Chatfenster." data-en="More than a chat window." data-es="Más que una ventana de chat.">Mehr als ein Chatfenster.</h2>
+          <p data-de="ARK IA ist aus einem Kotlin-Prototyp gewachsen und wurde als Flutter-App für Android und Windows weiterentwickelt. Die Idee: hilfreiche Werkzeuge an einem Ort verbinden und auf verschiedenen Geräten nutzbar machen." data-en="ARK IA began as a Kotlin prototype and grew into a Flutter app for Android and Windows. The goal is to bring useful tools together and make them available across devices." data-es="ARK IA comenzó como un prototipo en Kotlin y evolucionó a una aplicación Flutter para Android y Windows. La idea: reunir herramientas útiles en un solo espacio y hacerlas accesibles desde distintos dispositivos.">ARK IA ist aus einem Kotlin-Prototyp gewachsen und wurde als Flutter-App für Android und Windows weiterentwickelt. Die Idee: hilfreiche Werkzeuge an einem Ort verbinden und auf verschiedenen Geräten nutzbar machen.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card" data-reveal style="--delay: 0ms"><span class="card-index">01 / ASSIST</span><span class="feature-icon">✳</span><h3 data-de="KI im Gespräch" data-en="AI conversations" data-es="Conversaciones con IA">KI im Gespräch</h3><p data-de="Ein klarer Chatbereich mit formatierten Antworten und Spracheingabe oder Vorlesen." data-en="A focused chat space with formatted replies, voice input, and read-aloud." data-es="Un espacio de chat claro, respuestas con formato y funciones de voz.">Ein klarer Chatbereich mit formatierten Antworten und Spracheingabe oder Vorlesen.</p><span class="card-arrow" aria-hidden="true">↗</span></article>
+          <article class="feature-card" data-reveal style="--delay: 90ms"><span class="card-index">02 / ORGANIZE</span><span class="feature-icon">▤</span><h3 data-de="Persönlicher Bereich" data-en="Personal workspace" data-es="Espacio personal">Persönlicher Bereich</h3><p data-de="Chats, Notizen, Listen und Erinnerungen helfen, Gedanken übersichtlich zu halten." data-en="Chats, notes, lists, and reminders help keep ideas organized." data-es="Chats, notas, listas y recordatorios ayudan a mantener las ideas organizadas.">Chats, Notizen, Listen und Erinnerungen helfen, Gedanken übersichtlich zu halten.</p><span class="card-arrow" aria-hidden="true">↗</span></article>
+          <article class="feature-card feature-card-accent" data-reveal style="--delay: 180ms"><span class="card-index">03 / TRANSLATE</span><span class="feature-icon">文</span><h3 data-de="Bildschirmübersetzung" data-en="Screen translation" data-es="Traducción de pantalla">Bildschirmübersetzung</h3><p data-de="Auf Android erkennt und übersetzt ARK freigegebenen Bildschirmtext mit heruntergeladenen Modellen lokal." data-en="On Android, ARK recognizes and translates approved screen text locally with downloaded models." data-es="En Android, ARK reconoce y traduce localmente el texto de pantalla autorizado, con modelos descargados.">Auf Android erkennt und übersetzt ARK freigegebenen Bildschirmtext mit heruntergeladenen Modellen lokal.</p><span class="card-arrow" aria-hidden="true">↗</span></article>
+        </div>
+      </section>
+
+      <section class="technology-band" id="technik">
+        <div class="section-shell technology-layout">
+          <div data-reveal>
+            <p class="eyebrow"><span class="eyebrow-line"></span><span data-de="TECHNISCHER ÜBERBLICK" data-en="TECHNICAL OVERVIEW" data-es="VISTA TÉCNICA">TECHNISCHER ÜBERBLICK</span></p>
+            <h2 data-de="Ein Produkt.<br><em>Viele Entscheidungen.</em>" data-en="One product.&lt;br&gt;&lt;em&gt;Many decisions.&lt;/em&gt;" data-es="Un producto.<br><em>Muchas decisiones.</em>">Ein Produkt.<br><em>Viele Entscheidungen.</em></h2>
+            <p class="technology-intro" data-de="Die Oberfläche und Plattformfunktionen sind in Flutter und Dart umgesetzt. Firebase unterstützt Anmeldung und ausgewählte Synchronisierung; geschützte Serverdienste verbinden die App mit KI-Funktionen." data-en="The interface and shared platform features are built with Flutter and Dart. Firebase supports sign-in and selected sync features; protected server services connect the app to AI capabilities." data-es="La interfaz y las funciones de plataforma están desarrolladas con Flutter y Dart. Firebase admite el inicio de sesión y cierta sincronización; servicios protegidos conectan la app con funciones de IA.">Die Oberfläche und Plattformfunktionen sind in Flutter und Dart umgesetzt. Firebase unterstützt Anmeldung und ausgewählte Synchronisierung; geschützte Serverdienste verbinden die App mit KI-Funktionen.</p>
+            <a class="text-link" href="case-study.html"><span data-de="Technische Fallstudie lesen" data-en="Read the technical case study" data-es="Leer el caso técnico">Technische Fallstudie lesen</span><span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="architecture" data-reveal style="--delay: 120ms" aria-label="Vereinfachte Projektarchitektur" data-aria-de="Vereinfachte Projektarchitektur" data-aria-en="Simplified project architecture" data-aria-es="Arquitectura simplificada del proyecto">
+            <div class="arch-label"><span class="live-dot"></span><span data-de="VEREINFACHTE ARCHITEKTUR" data-en="SIMPLIFIED ARCHITECTURE" data-es="ARQUITECTURA SIMPLIFICADA">VEREINFACHTE ARCHITEKTUR</span></div>
+            <div class="arch-node arch-user"><span class="node-symbol">◉</span><span><b data-de="Menschen" data-en="People" data-es="Personas">Menschen</b><small data-de="Ideen und Aufgaben" data-en="Ideas and tasks" data-es="Ideas y tareas">Ideen und Aufgaben</small></span></div>
+            <div class="arch-connector"><span></span><small data-de="Bedienoberfläche" data-en="Interface" data-es="Interfaz">Bedienoberfläche</small></div>
+            <div class="arch-node arch-app"><span class="node-symbol">✳</span><span><b>ARK IA</b><small>Flutter · Dart</small></span><span class="platform-tags"><i>Android</i><i>Windows</i></span></div>
+            <div class="arch-branches"><div><span></span><small>Firebase</small></div><div><span></span><small data-de="KI-Dienste" data-en="AI services" data-es="Servicios de IA">KI-Dienste</small></div><div><span></span><small>ML Kit</small></div></div>
+            <div class="arch-caption" data-de="Jeder Dienst übernimmt eine klar abgegrenzte Aufgabe." data-en="Each service has a focused responsibility." data-es="Cada servicio cumple una función definida.">Jeder Dienst übernimmt eine klar abgegrenzte Aufgabe.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-shell case-section" id="fallstudie">
+        <div class="case-copy" data-reveal>
+          <p class="eyebrow"><span class="eyebrow-line"></span><span data-de="EINE TECHNISCHE HERAUSFORDERUNG" data-en="AN ENGINEERING CHALLENGE" data-es="UN RETO TÉCNICO">EINE TECHNISCHE HERAUSFORDERUNG</span></p>
+          <h2 data-de="Übersetzen, ohne die Kontrolle abzugeben." data-en="Translate while keeping users in control." data-es="Traducir sin perder el control.">Übersetzen, ohne die Kontrolle abzugeben.</h2>
+          <p data-de="Die Android-Bildschirmübersetzung verbindet Systemfreigabe, Texterkennung, lokale Sprachmodelle und eine schwebende Oberfläche. Der Nutzer startet jede Sitzung und jede Übersetzung selbst." data-en="ARK&#x27;s Android screen translator combines system approval, text recognition, on-device language models, and a floating interface. The user starts each session and triggers each translation." data-es="La traducción de pantalla en Android combina el permiso del sistema, reconocimiento de texto, modelos locales y una interfaz flotante. El usuario inicia cada sesión y cada traducción.">Die Android-Bildschirmübersetzung verbindet Systemfreigabe, Texterkennung, lokale Sprachmodelle und eine schwebende Oberfläche. Der Nutzer startet jede Sitzung und jede Übersetzung selbst.</p>
+          <a class="button button-outline" href="case-study.html"><span data-de="Entscheidungen ansehen" data-en="Explore the design decisions" data-es="Ver decisiones técnicas">Entscheidungen ansehen</span><span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="case-steps" data-reveal style="--delay: 100ms">
+          <div class="case-step"><span>01</span><div><b data-de="Freigabe" data-en="Permission" data-es="Permiso">Freigabe</b><p data-de="Android fragt vor dem Start nach Zustimmung." data-en="Android asks for approval before capture starts." data-es="Android pide autorización antes de iniciar.">Android fragt vor dem Start nach Zustimmung.</p></div><i>✓</i></div>
+          <div class="case-step"><span>02</span><div><b data-de="Erkennen" data-en="Recognize" data-es="Reconocer">Erkennen</b><p data-de="Text wird erst nach einer Nutzeraktion gelesen." data-en="Text is read only after a user action." data-es="El texto se lee tras una acción del usuario.">Text wird erst nach einer Nutzeraktion gelesen.</p></div><i>⌕</i></div>
+          <div class="case-step"><span>03</span><div><b data-de="Übersetzen" data-en="Translate" data-es="Traducir">Übersetzen</b><p data-de="Heruntergeladene ML-Kit-Modelle übersetzen lokal." data-en="Downloaded ML Kit models translate on the device." data-es="Los modelos descargados de ML Kit traducen localmente.">Heruntergeladene ML-Kit-Modelle übersetzen lokal.</p></div><i>文</i></div>
+          <div class="case-step"><span>04</span><div><b data-de="Anzeigen" data-en="Display" data-es="Mostrar">Anzeigen</b><p data-de="Das Ergebnis erscheint in einer anpassbaren Blase." data-en="The result appears in an adjustable bubble." data-es="El resultado aparece en una burbuja ajustable.">Das Ergebnis erscheint in einer anpassbaren Blase.</p></div><i>↗</i></div>
+        </div>
+      </section>
+
+      <section class="section code-section">
+        <div class="section-shell code-layout">
+          <div data-reveal>
+            <p class="eyebrow"><span class="eyebrow-line"></span><span data-de="AUSGEWÄHLTES CODEBEISPIEL" data-en="SELECTED CODE SAMPLE" data-es="CÓDIGO SELECCIONADO">AUSGEWÄHLTES CODEBEISPIEL</span></p>
+            <h2 data-de="Kleine Interaktion.<br><em>Sorgfältig umgesetzt.</em>" data-en="Small interaction.&lt;br&gt;&lt;em&gt;Carefully implemented.&lt;/em&gt;" data-es="Una interacción pequeña.<br><em>Bien cuidada.</em>">Kleine Interaktion.<br><em>Sorgfältig umgesetzt.</em></h2>
+            <p data-de="Dieses eigenständige Flutter-Beispiel zeigt, wie eine Berührung eine sanfte Rückmeldung auslöst. Es ist ein bewusst begrenzter Einblick in die UI-Arbeit des Projekts." data-en="This self-contained Flutter example shows how a tap can provide subtle feedback. It offers a deliberately limited look at the project&#x27;s UI work." data-es="Este ejemplo independiente de Flutter muestra cómo un toque genera una respuesta visual suave. Es una muestra acotada del trabajo de interfaz del proyecto.">Dieses eigenständige Flutter-Beispiel zeigt, wie eine Berührung eine sanfte Rückmeldung auslöst. Es ist ein bewusst begrenzter Einblick in die UI-Arbeit des Projekts.</p>
+            <a class="text-link" href="https://github.com/zetadevofficial-creator/ARK-IA-Portfolio/blob/main/examples/flutter_interaction/lib/tap_scale.dart" target="_blank" rel="noreferrer"><span data-de="Beispiel im Repository öffnen" data-en="Open the example in the repository" data-es="Abrir ejemplo en el repositorio">Beispiel im Repository öffnen</span><span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="code-card" data-reveal style="--delay: 120ms">
+            <div class="code-titlebar"><span class="code-dots"><i></i><i></i><i></i></span><span>tap_scale.dart</span><button class="copy-button" type="button" data-copy aria-label="Code kopieren" data-label-de="Kopieren" data-label-en="Copy code" data-label-es="Copiar">Kopieren</button></div>
+            <pre><code><span class="code-blue">GestureDetector</span>(
+  onTapDown: (_) =&gt; _setPressed(<span class="code-purple">true</span>),
+  onTapUp: (_) =&gt; _setPressed(<span class="code-purple">false</span>),
+  onTapCancel: () =&gt; _setPressed(<span class="code-purple">false</span>),
+  onTap: widget.onTap,
+  child: <span class="code-blue">AnimatedScale</span>(
+    scale: _pressed ? widget.scaleDown : <span class="code-orange">1.0</span>,
+    duration: widget.duration,
+    curve: <span class="code-blue">Curves</span>.easeOut,
+    child: widget.child,
+  ),
+)</code></pre>
+            <p class="code-caption"><span class="live-dot"></span><span data-de="Vereinfachter Ausschnitt · vollständiges Beispiel im Repository" data-en="Selected excerpt · full example in the repository" data-es="Fragmento simplificado · ejemplo completo en el repositorio">Vereinfachter Ausschnitt · vollständiges Beispiel im Repository</span></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section-shell">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow"><span class="eyebrow-line"></span><span data-de="EINBLICKE" data-en="PROJECT VIEWS" data-es="VISTAS">EINBLICKE</span></p>
+          <h2 data-de="Ein konsistenter Arbeitsbereich." data-en="A consistent workspace." data-es="Un espacio de trabajo coherente.">Ein konsistenter Arbeitsbereich.</h2>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-card gallery-wide" data-reveal><img src="assets/app-desktop.png" alt="ARK IA im Desktop-Layout" data-alt-de="ARK IA im Desktop-Layout" data-alt-en="ARK IA desktop workspace" data-alt-es="ARK IA en escritorio" loading="lazy"><figcaption><span>01</span><span data-de="Desktop · Flutter" data-en="Desktop · Flutter" data-es="Escritorio · Flutter">Desktop · Flutter</span></figcaption></figure>
+          <figure class="gallery-card gallery-tall" data-reveal style="--delay: 100ms"><img src="assets/app-voice-settings.png" alt="Spracheinstellungen in ARK IA für Android" data-alt-de="Spracheinstellungen in ARK IA für Android" data-alt-en="Voice settings in ARK IA for Android" data-alt-es="Ajustes de voz de ARK IA para Android" loading="lazy"><figcaption><span>02</span><span data-de="Sprache · Android" data-en="Voice · Android" data-es="Voz · Android">Sprache · Android</span></figcaption></figure>
+        </div>
+      </section>
+
+      <section class="closing section-shell" data-reveal>
+        <img src="assets/ark_logo.png" alt="" width="64" height="64" loading="lazy">
+        <p class="eyebrow"><span data-de="DIE IDEE DAHINTER" data-en="THE IDEA BEHIND IT" data-es="LA IDEA DETRÁS">DIE IDEE DAHINTER</span></p>
+        <h2 data-de="Technik soll sich<br><em>dem Menschen anpassen.</em>" data-en="Technology should&lt;br&gt;&lt;em&gt;adapt to people.&lt;/em&gt;" data-es="La tecnología debe<br><em>adaptarse a las personas.</em>">Technik soll sich<br><em>dem Menschen anpassen.</em></h2>
+        <p data-de="ARK IA ist ein laufendes Lern- und Entwicklungsprojekt. Dieses Portfolio zeigt ausgewählte Entscheidungen und Arbeitsergebnisse, während der vollständige App-Code privat bleibt." data-en="ARK IA is an ongoing learning and development project. This portfolio shares selected decisions and work while the complete app source remains private." data-es="ARK IA es un proyecto de aprendizaje y desarrollo continuo. Este portafolio comparte decisiones y resultados seleccionados; el código completo de la aplicación sigue siendo privado.">ARK IA ist ein laufendes Lern- und Entwicklungsprojekt. Dieses Portfolio zeigt ausgewählte Entscheidungen und Arbeitsergebnisse, während der vollständige App-Code privat bleibt.</p>
+        <a class="button button-gold" href="https://ark-ia.web.app/" target="_blank" rel="noreferrer"><span data-de="ARK IA kennenlernen" data-en="Explore ARK IA" data-es="Conocer ARK IA">ARK IA kennenlernen</span><span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="brand footer-brand" href="#top"><img src="assets/ark_logo.png" alt="" width="34" height="34"><span><strong>ARK IA</strong><small>ZETA-DEV</small></span></a>
+      <p data-de="Entwickelt mit Flutter und viel Geduld." data-en="Built with Flutter and a lot of patience." data-es="Desarrollado con Flutter y mucha paciencia.">Entwickelt mit Flutter und viel Geduld.</p>
+      <a href="https://ark-ia.web.app/" target="_blank" rel="noreferrer">ark-ia.web.app ↗</a>
+      <small>© 2026 Zeta-Dev</small>
+    </footer>
+  </body>
+</html>
